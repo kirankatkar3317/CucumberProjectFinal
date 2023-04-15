@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 55.851 s <<< FAILURE! - in runner.TestRunner
+user searches for invalid product(Search functionality)  Time elapsed: 3.532 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... is no product that []matches the search c...> but was:<... is no product that [//////]matches the search c...>
+
+user searches without any product(Search functionality)  Time elapsed: 2.668 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... is no product that []matches the search c...> but was:<... is no product that [//////]matches the search c...>
+
